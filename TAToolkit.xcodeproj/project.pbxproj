@@ -36,6 +36,9 @@
 		62708D5C12297DB300DA149B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62708CCD12297BE000DA149B /* QuartzCore.framework */; };
 		62708D5D12297DB300DA149B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62708CD512297C0C00DA149B /* UIKit.framework */; };
 		62708D7A12297E8600DA149B /* UIViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708CBF12297B5000DA149B /* UIViewAdditions.h */; };
+		62708DD21229852700DA149B /* TAToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708DD11229852700DA149B /* TAToolkit.h */; };
+		62708DD31229852700DA149B /* TAToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708DD11229852700DA149B /* TAToolkit.h */; };
+		62708DD41229852700DA149B /* TAToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708DD11229852700DA149B /* TAToolkit.h */; };
 		AA747D9F0F9514B9006C5449 /* TAToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -45,14 +48,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D /* Device */;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = Device;
 		};
 		62708D6912297DE000DA149B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 62708D5412297DB300DA149B /* Simulator */;
+			remoteGlobalIDString = 62708D5412297DB300DA149B;
 			remoteInfo = Simulator;
 		};
 /* End PBXContainerItemProxy section */
@@ -65,6 +68,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				62708D7A12297E8600DA149B /* UIViewAdditions.h in Headers */,
+				62708DD41229852700DA149B /* TAToolkit.h in Headers */,
 			);
 			name = Headers;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +81,7 @@
 		62708CCD12297BE000DA149B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		62708CD512297C0C00DA149B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62708D6112297DB300DA149B /* libTAToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62708DD11229852700DA149B /* TAToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAToolkit.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAToolkit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libTAToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +146,7 @@
 			children = (
 				62708CBF12297B5000DA149B /* UIViewAdditions.h */,
 				62708CC012297B5000DA149B /* UIViewAdditions.m */,
+				62708DD11229852700DA149B /* TAToolkit.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 			files = (
 				62708D5612297DB300DA149B /* TAToolkit_Prefix.pch in Headers */,
 				62708D5712297DB300DA149B /* UIViewAdditions.h in Headers */,
+				62708DD31229852700DA149B /* TAToolkit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +178,7 @@
 			files = (
 				AA747D9F0F9514B9006C5449 /* TAToolkit_Prefix.pch in Headers */,
 				62708CC112297B5000DA149B /* UIViewAdditions.h in Headers */,
+				62708DD21229852700DA149B /* TAToolkit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
