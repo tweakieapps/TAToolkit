@@ -6,81 +6,21 @@
 	objectVersion = 45;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		62708D6412297DD900DA149B /* Join */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 62708D6E12297DE700DA149B /* Build configuration list for PBXAggregateTarget "Join" */;
-			buildPhases = (
-				62708D7012297E1900DA149B /* Combine */,
-				62708D7712297E7100DA149B /* Headers */,
-				62708D9D122982BC00DA149B /* Zip */,
-			);
-			dependencies = (
-				62708D6812297DE000DA149B /* PBXTargetDependency */,
-				62708D6A12297DE000DA149B /* PBXTargetDependency */,
-			);
-			name = Join;
-			productName = Join;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		62708CC112297B5000DA149B /* UIViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708CBF12297B5000DA149B /* UIViewAdditions.h */; };
 		62708CC212297B5000DA149B /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62708CC012297B5000DA149B /* UIViewAdditions.m */; };
 		62708CCE12297BE000DA149B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62708CCD12297BE000DA149B /* QuartzCore.framework */; };
 		62708CD612297C0C00DA149B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62708CD512297C0C00DA149B /* UIKit.framework */; };
-		62708D5612297DB300DA149B /* TAToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */; };
-		62708D5712297DB300DA149B /* UIViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708CBF12297B5000DA149B /* UIViewAdditions.h */; };
-		62708D5912297DB300DA149B /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62708CC012297B5000DA149B /* UIViewAdditions.m */; };
-		62708D5B12297DB300DA149B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		62708D5C12297DB300DA149B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62708CCD12297BE000DA149B /* QuartzCore.framework */; };
-		62708D5D12297DB300DA149B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62708CD512297C0C00DA149B /* UIKit.framework */; };
-		62708D7A12297E8600DA149B /* UIViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708CBF12297B5000DA149B /* UIViewAdditions.h */; };
 		62708DD21229852700DA149B /* TAToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708DD11229852700DA149B /* TAToolkit.h */; };
-		62708DD31229852700DA149B /* TAToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708DD11229852700DA149B /* TAToolkit.h */; };
-		62708DD41229852700DA149B /* TAToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708DD11229852700DA149B /* TAToolkit.h */; };
 		AA747D9F0F9514B9006C5449 /* TAToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		62708D6712297DE000DA149B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = Device;
-		};
-		62708D6912297DE000DA149B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62708D5412297DB300DA149B;
-			remoteInfo = Simulator;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		62708D7712297E7100DA149B /* Headers */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = TAToolkit;
-			dstSubfolderSpec = 16;
-			files = (
-				62708D7A12297E8600DA149B /* UIViewAdditions.h in Headers */,
-				62708DD41229852700DA149B /* TAToolkit.h in Headers */,
-			);
-			name = Headers;
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		62708CBF12297B5000DA149B /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
 		62708CC012297B5000DA149B /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
 		62708CCD12297BE000DA149B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		62708CD512297C0C00DA149B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		62708D6112297DB300DA149B /* libTAToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		62708DD11229852700DA149B /* TAToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAToolkit.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAToolkit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,16 +28,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		62708D5A12297DB300DA149B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62708D5B12297DB300DA149B /* Foundation.framework in Frameworks */,
-				62708D5C12297DB300DA149B /* QuartzCore.framework in Frameworks */,
-				62708D5D12297DB300DA149B /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC07C0554694100DB518D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libTAToolkit.a */,
-				62708D6112297DB300DA149B /* libTAToolkit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,16 +91,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		62708D5512297DB300DA149B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62708D5612297DB300DA149B /* TAToolkit_Prefix.pch in Headers */,
-				62708D5712297DB300DA149B /* UIViewAdditions.h in Headers */,
-				62708DD31229852700DA149B /* TAToolkit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC07A0554694100DB518D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,26 +104,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		62708D5412297DB300DA149B /* Simulator */ = {
+		D2AAC07D0554694100DB518D /* TAToolkit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62708D5E12297DB300DA149B /* Build configuration list for PBXNativeTarget "Simulator" */;
-			buildPhases = (
-				62708D5512297DB300DA149B /* Headers */,
-				62708D5812297DB300DA149B /* Sources */,
-				62708D5A12297DB300DA149B /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Simulator;
-			productName = TAToolkit;
-			productReference = 62708D6112297DB300DA149B /* libTAToolkit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D2AAC07D0554694100DB518D /* Device */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "Device" */;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TAToolkit" */;
 			buildPhases = (
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
@@ -214,7 +116,7 @@
 			);
 			dependencies = (
 			);
-			name = Device;
+			name = TAToolkit;
 			productName = TAToolkit;
 			productReference = D2AAC07E0554694100DB518D /* libTAToolkit.a */;
 			productType = "com.apple.product-type.library.static";
@@ -232,53 +134,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* Device */,
-				62708D5412297DB300DA149B /* Simulator */,
-				62708D6412297DD900DA149B /* Join */,
+				D2AAC07D0554694100DB518D /* TAToolkit */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		62708D7012297E1900DA149B /* Combine */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Combine;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# make a new output folder\nmkdir -p ${PROJECT_DIR}/build/${BUILD_STYLE}-iphoneos/TAToolkit\n \n# combine lib files for various platforms into one\nlipo -create \"${PROJECT_DIR}/build/${BUILD_STYLE}-iphoneos/libTAToolkit.a\" \"${PROJECT_DIR}/build/${BUILD_STYLE}-iphonesimulator/libTAToolkit.a\" -output \"${PROJECT_DIR}/build/${BUILD_STYLE}-iphoneos/TAToolkit/libTAToolkit.a\"";
-		};
-		62708D9D122982BC00DA149B /* Zip */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Zip;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "ditto -c -k --keepParent \"${PROJECT_DIR}/build/${BUILD_STYLE}-iphoneos/TAToolkit\" \"${PROJECT_DIR}/build/${BUILD_STYLE}-iphoneos/TAToolkit.zip\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		62708D5812297DB300DA149B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62708D5912297DB300DA149B /* UIViewAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,19 +149,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		62708D6812297DE000DA149B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* Device */;
-			targetProxy = 62708D6712297DE000DA149B /* PBXContainerItemProxy */;
-		};
-		62708D6A12297DE000DA149B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62708D5412297DB300DA149B /* Simulator */;
-			targetProxy = 62708D6912297DE000DA149B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
@@ -364,65 +212,10 @@
 			};
 			name = Release;
 		};
-		62708D5F12297DB300DA149B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/TAToolkit.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = TAToolkit_Prefix.pch;
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = TAToolkit;
-				SDKROOT = iphonesimulator3.2;
-			};
-			name = Debug;
-		};
-		62708D6012297DB300DA149B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/TAToolkit.dst;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = TAToolkit_Prefix.pch;
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = TAToolkit;
-				SDKROOT = iphonesimulator3.2;
-			};
-			name = Release;
-		};
-		62708D6512297DD900DA149B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = Join;
-			};
-			name = Debug;
-		};
-		62708D6612297DD900DA149B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = Join;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "Device" */ = {
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TAToolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
@@ -436,24 +229,6 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62708D5E12297DB300DA149B /* Build configuration list for PBXNativeTarget "Simulator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62708D5F12297DB300DA149B /* Debug */,
-				62708D6012297DB300DA149B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62708D6E12297DE700DA149B /* Build configuration list for PBXAggregateTarget "Join" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62708D6512297DD900DA149B /* Debug */,
-				62708D6612297DD900DA149B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
