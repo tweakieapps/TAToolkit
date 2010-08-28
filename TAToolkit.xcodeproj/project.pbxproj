@@ -166,7 +166,7 @@
 				GCC_PREFIX_HEADER = TAToolkit_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = TAToolkit;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphonesimulator3.2;
 			};
 			name = Debug;
 		};
@@ -181,7 +181,7 @@
 				GCC_PREFIX_HEADER = TAToolkit_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = TAToolkit;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphonesimulator3.2;
 			};
 			name = Release;
 		};
