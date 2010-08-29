@@ -6,10 +6,10 @@
 //  Copyright 2010 Tweakie Apps. All rights reserved.
 //
 
-#import "UIViewAdditions.h"
+#import "UIView+TAToolkitAdditions.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation UIView (UIViewAdditions)
+@implementation UIView (TAToolkitAdditions)
 
 #pragma mark -
 #pragma mark Frame

@@ -7,7 +7,7 @@
  *
  */
 
-#import "UIViewAdditions.h"
+#import "UIView+TAToolkitAdditions.h"
 
 #import "Common.h"
 

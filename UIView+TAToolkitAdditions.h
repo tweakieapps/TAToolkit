@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (UIViewAdditions)
+@interface UIView (TAToolkitAdditions)
 
 #pragma mark -
 #pragma mark Frame
