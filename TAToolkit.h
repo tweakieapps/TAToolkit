@@ -8,3 +8,7 @@
  */
 
 #import "UIViewAdditions.h"
+
+#import "Common.h"
+
+#import "TAViewController.h"
