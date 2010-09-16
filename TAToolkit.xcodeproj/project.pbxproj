@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62279652123C589E0001B9A7 /* TASplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62279650123C589E0001B9A7 /* TASplitViewController.h */; };
+		62279653123C589E0001B9A7 /* TASplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62279651123C589E0001B9A7 /* TASplitViewController.m */; };
+		6255CEA312428F9F001CA642 /* TATextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6255CEA112428F9F001CA642 /* TATextField.h */; };
+		6255CEA412428F9F001CA642 /* TATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6255CEA212428F9F001CA642 /* TATextField.m */; };
 		62708CC112297B5000DA149B /* UIView+TAToolkitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708CBF12297B5000DA149B /* UIView+TAToolkitAdditions.h */; };
 		62708CC212297B5000DA149B /* UIView+TAToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62708CC012297B5000DA149B /* UIView+TAToolkitAdditions.m */; };
 		62708CCE12297BE000DA149B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62708CCD12297BE000DA149B /* QuartzCore.framework */; };
@@ -16,20 +20,28 @@
 		62709A37122ADCA600DA149B /* TAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62709A35122ADCA600DA149B /* TAViewController.h */; };
 		62709A3B122ADCB600DA149B /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 62709A39122ADCB600DA149B /* Common.m */; };
 		62709A3C122ADCB600DA149B /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 62709A3A122ADCB600DA149B /* Common.h */; };
+		629F020312405B7D00C7E067 /* NSString+TAToolkitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 629F020112405B7D00C7E067 /* NSString+TAToolkitAdditions.h */; };
+		629F020412405B7D00C7E067 /* NSString+TAToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F020212405B7D00C7E067 /* NSString+TAToolkitAdditions.m */; };
 		AA747D9F0F9514B9006C5449 /* TAToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62279650123C589E0001B9A7 /* TASplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASplitViewController.h; sourceTree = "<group>"; };
+		62279651123C589E0001B9A7 /* TASplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASplitViewController.m; sourceTree = "<group>"; };
+		6255CEA112428F9F001CA642 /* TATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATextField.h; sourceTree = "<group>"; };
+		6255CEA212428F9F001CA642 /* TATextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATextField.m; sourceTree = "<group>"; };
 		62708CBF12297B5000DA149B /* UIView+TAToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TAToolkitAdditions.h"; sourceTree = "<group>"; };
 		62708CC012297B5000DA149B /* UIView+TAToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TAToolkitAdditions.m"; sourceTree = "<group>"; };
 		62708CCD12297BE000DA149B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		62708CD512297C0C00DA149B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62708CD512297C0C00DA149B /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62708DD11229852700DA149B /* TAToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAToolkit.h; sourceTree = "<group>"; };
 		62709A34122ADCA600DA149B /* TAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
 		62709A35122ADCA600DA149B /* TAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
 		62709A39122ADCB600DA149B /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		62709A3A122ADCB600DA149B /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		629F020112405B7D00C7E067 /* NSString+TAToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TAToolkitAdditions.h"; sourceTree = "<group>"; };
+		629F020212405B7D00C7E067 /* NSString+TAToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TAToolkitAdditions.m"; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAToolkit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libTAToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +93,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6255CEA012428F95001CA642 /* Views */,
 				62709A38122ADCA900DA149B /* Common */,
 				62709A33122ADC9500DA149B /* View Controllers */,
 				62709A31122ADC8800DA149B /* Categories */,
@@ -97,9 +110,19 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		6255CEA012428F95001CA642 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6255CEA112428F9F001CA642 /* TATextField.h */,
+				6255CEA212428F9F001CA642 /* TATextField.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		62709A31122ADC8800DA149B /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				629F020012405B6100C7E067 /* Foundation */,
 				62709A32122ADC9100DA149B /* UIKit */,
 			);
 			name = Categories;
@@ -117,6 +140,8 @@
 		62709A33122ADC9500DA149B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				62279650123C589E0001B9A7 /* TASplitViewController.h */,
+				62279651123C589E0001B9A7 /* TASplitViewController.m */,
 				62709A34122ADCA600DA149B /* TAViewController.m */,
 				62709A35122ADCA600DA149B /* TAViewController.h */,
 			);
@@ -132,6 +157,15 @@
 			name = Common;
 			sourceTree = "<group>";
 		};
+		629F020012405B6100C7E067 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				629F020112405B7D00C7E067 /* NSString+TAToolkitAdditions.h */,
+				629F020212405B7D00C7E067 /* NSString+TAToolkitAdditions.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -144,6 +178,9 @@
 				62708DD21229852700DA149B /* TAToolkit.h in Headers */,
 				62709A37122ADCA600DA149B /* TAViewController.h in Headers */,
 				62709A3C122ADCB600DA149B /* Common.h in Headers */,
+				62279652123C589E0001B9A7 /* TASplitViewController.h in Headers */,
+				629F020312405B7D00C7E067 /* NSString+TAToolkitAdditions.h in Headers */,
+				6255CEA312428F9F001CA642 /* TATextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +211,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TAToolkit" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* TAToolkit */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -193,6 +237,9 @@
 				62708CC212297B5000DA149B /* UIView+TAToolkitAdditions.m in Sources */,
 				62709A36122ADCA600DA149B /* TAViewController.m in Sources */,
 				62709A3B122ADCB600DA149B /* Common.m in Sources */,
+				62279653123C589E0001B9A7 /* TASplitViewController.m in Sources */,
+				629F020412405B7D00C7E067 /* NSString+TAToolkitAdditions.m in Sources */,
+				6255CEA412428F9F001CA642 /* TATextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +253,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/TAToolkit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -213,6 +264,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TAToolkit_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = TAToolkit;
 				SDKROOT = iphonesimulator3.2;
 			};
@@ -224,10 +279,18 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/TAToolkit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TAToolkit_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = TAToolkit;
 				SDKROOT = iphonesimulator3.2;
 			};

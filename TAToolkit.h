@@ -8,7 +8,11 @@
  */
 
 #import "UIView+TAToolkitAdditions.h"
+#import "NSString+TAToolkitAdditions.h"
 
 #import "Common.h"
 
 #import "TAViewController.h"
+#import "TASplitViewController.h"
+
+#import "TATextField.h"
