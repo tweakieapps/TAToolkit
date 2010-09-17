@@ -20,17 +20,23 @@
 	NSError *connectionError = nil;
 	NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:&connectionError];
 
-	if ( error != NULL ) 
-	{
-		*error = connectionError;
-	}
+	[connectionError retain];
 	
 	// Create string for return
 	NSString *string = [[NSString alloc] initWithData:data encoding:enc];
 	
 	// Drain Pool
 	[pool drain];
-
+	
+	if ( error != NULL ) 
+	{
+		*error = connectionError;
+		[*error retain];
+		[*error autorelease];
+	}
+	
+	[connectionError release];
+	
 	// Return requested string
 	return string;
 }
