@@ -35,6 +35,11 @@
 	return string;
 }
 
+- (BOOL)empty
+{
+	return ! self.length || ! [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]].length;
+}
+
 + (NSString *) md5:(NSString *)str 
 {
 	const char *cStr = [str UTF8String];

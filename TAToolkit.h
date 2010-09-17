@@ -9,6 +9,7 @@
 
 #import "UIView+TAToolkitAdditions.h"
 #import "NSString+TAToolkitAdditions.h"
+#import "NSMutableURLRequest+TAToolkitAdditions.h"
 
 #import "Common.h"
 

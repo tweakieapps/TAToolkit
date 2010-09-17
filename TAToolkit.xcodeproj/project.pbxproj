@@ -11,6 +11,8 @@
 		62279653123C589E0001B9A7 /* TASplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62279651123C589E0001B9A7 /* TASplitViewController.m */; };
 		6255CEA312428F9F001CA642 /* TATextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6255CEA112428F9F001CA642 /* TATextField.h */; };
 		6255CEA412428F9F001CA642 /* TATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6255CEA212428F9F001CA642 /* TATextField.m */; };
+		6255CFEC1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6255CFEA1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.h */; };
+		6255CFED1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6255CFEB1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.m */; };
 		62708CC112297B5000DA149B /* UIView+TAToolkitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62708CBF12297B5000DA149B /* UIView+TAToolkitAdditions.h */; };
 		62708CC212297B5000DA149B /* UIView+TAToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62708CC012297B5000DA149B /* UIView+TAToolkitAdditions.m */; };
 		62708CCE12297BE000DA149B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62708CCD12297BE000DA149B /* QuartzCore.framework */; };
@@ -31,6 +33,8 @@
 		62279651123C589E0001B9A7 /* TASplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASplitViewController.m; sourceTree = "<group>"; };
 		6255CEA112428F9F001CA642 /* TATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATextField.h; sourceTree = "<group>"; };
 		6255CEA212428F9F001CA642 /* TATextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATextField.m; sourceTree = "<group>"; };
+		6255CFEA1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+TAToolkitAdditions.h"; sourceTree = "<group>"; };
+		6255CFEB1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+TAToolkitAdditions.m"; sourceTree = "<group>"; };
 		62708CBF12297B5000DA149B /* UIView+TAToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TAToolkitAdditions.h"; sourceTree = "<group>"; };
 		62708CC012297B5000DA149B /* UIView+TAToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TAToolkitAdditions.m"; sourceTree = "<group>"; };
 		62708CCD12297BE000DA149B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -162,6 +166,8 @@
 			children = (
 				629F020112405B7D00C7E067 /* NSString+TAToolkitAdditions.h */,
 				629F020212405B7D00C7E067 /* NSString+TAToolkitAdditions.m */,
+				6255CFEA1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.h */,
+				6255CFEB1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 				62279652123C589E0001B9A7 /* TASplitViewController.h in Headers */,
 				629F020312405B7D00C7E067 /* NSString+TAToolkitAdditions.h in Headers */,
 				6255CEA312428F9F001CA642 /* TATextField.h in Headers */,
+				6255CFEC1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +247,7 @@
 				62279653123C589E0001B9A7 /* TASplitViewController.m in Sources */,
 				629F020412405B7D00C7E067 /* NSString+TAToolkitAdditions.m in Sources */,
 				6255CEA412428F9F001CA642 /* TATextField.m in Sources */,
+				6255CFED1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
