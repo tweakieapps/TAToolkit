@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6225C24012451EA50055D4BC /* TATableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6225C23E12451EA50055D4BC /* TATableViewController.h */; };
+		6225C24112451EA50055D4BC /* TATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225C23F12451EA50055D4BC /* TATableViewController.m */; };
+		6225C265124520020055D4BC /* TARefreshTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6225C263124520020055D4BC /* TARefreshTableHeaderView.h */; };
+		6225C266124520020055D4BC /* TARefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225C264124520020055D4BC /* TARefreshTableHeaderView.m */; };
+		6225C2F5124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6225C2F3124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.h */; };
+		6225C2F6124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225C2F4124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.m */; };
+		6225C2FD1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.h in Headers */ = {isa = PBXBuildFile; fileRef = 6225C2FB1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.h */; };
+		6225C2FE1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225C2FC1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.m */; };
+		6225C303124534850055D4BC /* TASwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6225C301124534850055D4BC /* TASwizzle.h */; };
+		6225C304124534850055D4BC /* TASwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225C302124534850055D4BC /* TASwizzle.m */; };
 		62279652123C589E0001B9A7 /* TASplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62279650123C589E0001B9A7 /* TASplitViewController.h */; };
 		62279653123C589E0001B9A7 /* TASplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62279651123C589E0001B9A7 /* TASplitViewController.m */; };
 		6255CEA312428F9F001CA642 /* TATextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6255CEA112428F9F001CA642 /* TATextField.h */; };
@@ -29,6 +39,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6225C23E12451EA50055D4BC /* TATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATableViewController.h; sourceTree = "<group>"; };
+		6225C23F12451EA50055D4BC /* TATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATableViewController.m; sourceTree = "<group>"; };
+		6225C24F12451F820055D4BC /* TAToolkit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TAToolkit.bundle; sourceTree = "<group>"; };
+		6225C263124520020055D4BC /* TARefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARefreshTableHeaderView.h; sourceTree = "<group>"; };
+		6225C264124520020055D4BC /* TARefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARefreshTableHeaderView.m; sourceTree = "<group>"; };
+		6225C2F3124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TAToolkitAdditions.h"; sourceTree = "<group>"; };
+		6225C2F4124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TAToolkitAdditions.m"; sourceTree = "<group>"; };
+		6225C2FB1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+TAToolkitAdditons.h"; sourceTree = "<group>"; };
+		6225C2FC1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+TAToolkitAdditons.m"; sourceTree = "<group>"; };
+		6225C301124534850055D4BC /* TASwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASwizzle.h; sourceTree = "<group>"; };
+		6225C302124534850055D4BC /* TASwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASwizzle.m; sourceTree = "<group>"; };
 		62279650123C589E0001B9A7 /* TASplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASplitViewController.h; sourceTree = "<group>"; };
 		62279651123C589E0001B9A7 /* TASplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASplitViewController.m; sourceTree = "<group>"; };
 		6255CEA112428F9F001CA642 /* TATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATextField.h; sourceTree = "<group>"; };
@@ -109,6 +130,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6225C24F12451F820055D4BC /* TAToolkit.bundle */,
 				AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */,
 			);
 			name = "Other Sources";
@@ -119,6 +141,8 @@
 			children = (
 				6255CEA112428F9F001CA642 /* TATextField.h */,
 				6255CEA212428F9F001CA642 /* TATextField.m */,
+				6225C263124520020055D4BC /* TARefreshTableHeaderView.h */,
+				6225C264124520020055D4BC /* TARefreshTableHeaderView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -137,6 +161,10 @@
 			children = (
 				62708CBF12297B5000DA149B /* UIView+TAToolkitAdditions.h */,
 				62708CC012297B5000DA149B /* UIView+TAToolkitAdditions.m */,
+				6225C2F3124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.h */,
+				6225C2F4124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.m */,
+				6225C2FB1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.h */,
+				6225C2FC1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -148,6 +176,8 @@
 				62279651123C589E0001B9A7 /* TASplitViewController.m */,
 				62709A34122ADCA600DA149B /* TAViewController.m */,
 				62709A35122ADCA600DA149B /* TAViewController.h */,
+				6225C23E12451EA50055D4BC /* TATableViewController.h */,
+				6225C23F12451EA50055D4BC /* TATableViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -157,6 +187,8 @@
 			children = (
 				62709A39122ADCB600DA149B /* Common.m */,
 				62709A3A122ADCB600DA149B /* Common.h */,
+				6225C301124534850055D4BC /* TASwizzle.h */,
+				6225C302124534850055D4BC /* TASwizzle.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -188,6 +220,11 @@
 				629F020312405B7D00C7E067 /* NSString+TAToolkitAdditions.h in Headers */,
 				6255CEA312428F9F001CA642 /* TATextField.h in Headers */,
 				6255CFEC1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.h in Headers */,
+				6225C24012451EA50055D4BC /* TATableViewController.h in Headers */,
+				6225C265124520020055D4BC /* TARefreshTableHeaderView.h in Headers */,
+				6225C2F5124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.h in Headers */,
+				6225C2FD1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.h in Headers */,
+				6225C303124534850055D4BC /* TASwizzle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +285,11 @@
 				629F020412405B7D00C7E067 /* NSString+TAToolkitAdditions.m in Sources */,
 				6255CEA412428F9F001CA642 /* TATextField.m in Sources */,
 				6255CFED1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.m in Sources */,
+				6225C24112451EA50055D4BC /* TATableViewController.m in Sources */,
+				6225C266124520020055D4BC /* TARefreshTableHeaderView.m in Sources */,
+				6225C2F6124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.m in Sources */,
+				6225C2FE1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.m in Sources */,
+				6225C304124534850055D4BC /* TASwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

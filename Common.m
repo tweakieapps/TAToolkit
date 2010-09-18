@@ -7,6 +7,18 @@
 //
 
 #import "Common.h"
+#import "TASwizzle.h"
+
+void TAToolkitSetup()
+{
+	[TASwizzle swizzleSelector:@selector(drawRect:)
+                          ofClass:[UINavigationBar class]
+                     withSelector:@selector(scDrawRect:)];
+
+	[TASwizzle swizzleSelector:@selector(drawRect:)
+                          ofClass:[UIToolbar class]
+                     withSelector:@selector(scDrawRect:)]; 
+}
 
 CGFloat floatBetween(CGFloat smallNumber, CGFloat bigNumber)
 {

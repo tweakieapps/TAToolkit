@@ -16,4 +16,9 @@
 
 - (BOOL)empty;
 
+
+- (NSString *)escapeHTML;
+- (NSString *)unescapeHTML;
+
+
 @end

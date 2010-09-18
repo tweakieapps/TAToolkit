@@ -8,6 +8,8 @@
  */
 
 #import "UIView+TAToolkitAdditions.h"
+#import "UINavigationBar+TAToolkitAdditions.h"
+#import "UIToolbar+TAToolkitAdditons.h"
 #import "NSString+TAToolkitAdditions.h"
 #import "NSMutableURLRequest+TAToolkitAdditions.h"
 
@@ -15,5 +17,7 @@
 
 #import "TAViewController.h"
 #import "TASplitViewController.h"
+#import "TATableViewController.h"
 
 #import "TATextField.h"
+#import "TARefreshTableHeaderView.h"
