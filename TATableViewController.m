@@ -28,7 +28,7 @@
 	if (refreshHeaderView == nil) 
 	{
 		refreshHeaderView = [[TARefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - self.tableView.bounds.size.height, 320.0f, self.tableView.bounds.size.height)];
-		refreshHeaderView.backgroundColor = [UIColor colorWithRed:226.0/255.0 green:231.0/255.0 blue:237.0/255.0 alpha:1.0];
+		refreshHeaderView.backgroundColor = [UIColor colorWithRed:41.0/255.0 green:41.0/255.0 blue:41.0/255.0 alpha:1.0];
 		[self.tableView addSubview:refreshHeaderView];
 		self.tableView.showsVerticalScrollIndicator = YES;
 		[refreshHeaderView release];
@@ -98,7 +98,6 @@
 	[UIView commitAnimations];
 	
 	[refreshHeaderView setState:TAPullRefreshNormal];
-	[refreshHeaderView setCurrentDate];  //  should check if data reload was successful 
 }
 
 #pragma mark Table view methods

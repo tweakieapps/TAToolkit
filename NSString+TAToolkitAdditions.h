@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NSString (TAToolkitAdditions)
 
@@ -20,5 +21,6 @@
 - (NSString *)escapeHTML;
 - (NSString *)unescapeHTML;
 
+- (NSString *)stringByTruncatingToWidth:(CGFloat)width withFont:(UIFont *)font;
 
 @end

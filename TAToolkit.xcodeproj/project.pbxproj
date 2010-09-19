@@ -34,6 +34,8 @@
 		62709A3C122ADCB600DA149B /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 62709A3A122ADCB600DA149B /* Common.h */; };
 		629F020312405B7D00C7E067 /* NSString+TAToolkitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 629F020112405B7D00C7E067 /* NSString+TAToolkitAdditions.h */; };
 		629F020412405B7D00C7E067 /* NSString+TAToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F020212405B7D00C7E067 /* NSString+TAToolkitAdditions.m */; };
+		62EB38DD1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EB38DB1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.h */; };
+		62EB38DE1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EB38DC1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.m */; };
 		AA747D9F0F9514B9006C5449 /* TAToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -67,6 +69,8 @@
 		62709A3A122ADCB600DA149B /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		629F020112405B7D00C7E067 /* NSString+TAToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TAToolkitAdditions.h"; sourceTree = "<group>"; };
 		629F020212405B7D00C7E067 /* NSString+TAToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TAToolkitAdditions.m"; sourceTree = "<group>"; };
+		62EB38DB1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+TAToolkitAdditions.h"; sourceTree = "<group>"; };
+		62EB38DC1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+TAToolkitAdditions.m"; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAToolkit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libTAToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +204,8 @@
 				629F020212405B7D00C7E067 /* NSString+TAToolkitAdditions.m */,
 				6255CFEA1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.h */,
 				6255CFEB1242C343001CA642 /* NSMutableURLRequest+TAToolkitAdditions.m */,
+				62EB38DB1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.h */,
+				62EB38DC1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 				6225C2F5124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.h in Headers */,
 				6225C2FD1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.h in Headers */,
 				6225C303124534850055D4BC /* TASwizzle.h in Headers */,
+				62EB38DD1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +297,7 @@
 				6225C2F6124533E10055D4BC /* UINavigationBar+TAToolkitAdditions.m in Sources */,
 				6225C2FE1245342F0055D4BC /* UIToolbar+TAToolkitAdditons.m in Sources */,
 				6225C304124534850055D4BC /* TASwizzle.m in Sources */,
+				62EB38DE1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
