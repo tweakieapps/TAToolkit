@@ -17,6 +17,7 @@ CGFloat floatBetween(CGFloat smallNumber, CGFloat bigNumber);
 void CGRectLog(CGRect rect);
 void CGSizeLog(CGSize size);
 void CGPointLog(CGPoint point);
+void CFRangeLog(CFRange range);
 void UIEdgeInsetsLog(UIEdgeInsets insets);
 
 void UIInterfaceOrientationLog(UIInterfaceOrientation orientation);

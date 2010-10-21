@@ -39,6 +39,11 @@ void CGPointLog(CGPoint point) {
 	NSLog(@"x=%f, y=%f", point.x, point.y);
 }
 
+void CFRangeLog(CFRange range) 
+{
+	NSLog(@"location=%d, length=%d", range.location, range.length);
+}
+
 void UIInterfaceOrientationLog(UIInterfaceOrientation orientation) {
 	if (UIInterfaceOrientationPortrait == orientation) {
 		NSLog(@"Interface Orientation: Portrait");
