@@ -9,6 +9,58 @@
 #import "NSString+TAToolkitAdditions.h"
 #import <CommonCrypto/CommonDigest.h>
 
+@interface TAStripHTML : NSObject <NSXMLParserDelegate>
+{
+	NSMutableString *_string;
+}
+
+- (NSString *)strip:(NSString *)string;
+
+@end
+
+
+@implementation TAStripHTML
+
+- (id)init
+{
+	if(self = [super init]) 
+	{
+		_string = [[NSMutableString alloc] init];
+	}
+
+	return self;
+}
+
+- (NSString *)strip:(NSString *)string 
+{
+	NSMutableString *temp = [NSMutableString stringWithString:string];
+	
+	NSString* xmlStr = [NSString stringWithFormat:@"<d>%@</d>", temp];
+	NSData *data = [xmlStr dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
+	NSXMLParser* xmlParse = [[NSXMLParser alloc] initWithData:data];
+	[xmlParse setDelegate:self];
+	[xmlParse parse];
+	NSString* returnStr = [NSString stringWithFormat:@"%@", _string];
+	[xmlParse release];
+	
+	return returnStr;
+}
+
+
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
+{
+	[_string appendString:string];
+}
+
+- (void)dealloc 
+{
+	[_string release];
+	[super dealloc];
+}
+
+@end
+
+
 @implementation NSString (TAToolkitAdditions)
 
 - (id)initWithContentsOfURLRequest:(NSURLRequest *)request encoding:(NSStringEncoding)enc error:(NSError **)error
@@ -109,7 +161,7 @@
 		} else if ([target hasPrefix:@"&quot;"]) {
 			[s appendString:@"\""];
 			[target deleteCharactersInRange:NSMakeRange(0, 6)];
-		} else if ([target hasPrefix:@"&#39;"]) {
+		} else if ([target hasPrefix:@"&#39;"] || [target hasPrefix:@"&#039;"]) {
 			[s appendString:@"'"];
 			[target deleteCharactersInRange:NSMakeRange(0, 5)];
 		} else if ([target hasPrefix:@"&amp;"]) {
@@ -118,6 +170,12 @@
 		} else if ([target hasPrefix:@"&hellip;"]) {
 			[s appendString:@"…"];
 			[target deleteCharactersInRange:NSMakeRange(0, 8)];
+		} else if ([target hasPrefix:@"&#8217;"]) {
+			[s appendString:@"’"];
+			[target deleteCharactersInRange:NSMakeRange(0, 7)];
+		} else if ([target hasPrefix:@"&rsquo;"]) {
+			[s appendString:@"’"];
+			[target deleteCharactersInRange:NSMakeRange(0, 7)];
 		} else {
 			[s appendString:@"&"];
 			[target deleteCharactersInRange:NSMakeRange(0, 1)];
@@ -178,6 +236,18 @@
 	}
 
 	return truncatedString;
+}
+
+- (NSString *)stripHTML
+{
+	NSString *string = self;
+	NSError *error = nil;
+	
+	NSRegularExpression *replace = [[NSRegularExpression alloc] initWithPattern:@"<script[^>]*>.*</script>|<style[^>]*>.*</style>|<[^>]*>" options:0 error:&error];
+	string = [replace stringByReplacingMatchesInString:string options:0 range:NSMakeRange(0, [string length]) withTemplate:@""];
+	[replace release];
+
+	return string;
 }
 
 @end

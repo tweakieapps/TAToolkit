@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSString (TAToolkitAdditions)
+@interface NSString (TAToolkitAdditions) <NSXMLParserDelegate>
 
 - (id)initWithContentsOfURLRequest:(NSURLRequest *)request encoding:(NSStringEncoding)enc error:(NSError **)error;
 
@@ -17,6 +17,7 @@
 
 - (BOOL)empty;
 
+- (NSString *)stripHTML;
 
 - (NSString *)escapeHTML;
 - (NSString *)unescapeHTML;

@@ -11,6 +11,6 @@
 
 @interface UINavigationBar (TAToolkitAdditions)
 
--(void)setBackgroundImage:(UIImage*)image;
+@property (nonatomic, assign) UIImage *backgroundImage;
 
 @end

@@ -34,5 +34,11 @@ static NSMutableDictionary *navigationBarImages = NULL;
     [navigationBarImages setObject:image forKey:[NSValue valueWithNonretainedObject: self]];
 }
 
+- (UIImage *)backgroundImage
+{
+    UIImage *image=[navigationBarImages objectForKey:[NSValue valueWithNonretainedObject: self]];
+	
+	return image;
+}
 
 @end
