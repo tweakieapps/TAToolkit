@@ -21,6 +21,9 @@
 		6225C304124534850055D4BC /* TASwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225C302124534850055D4BC /* TASwizzle.m */; };
 		62279652123C589E0001B9A7 /* TASplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62279650123C589E0001B9A7 /* TASplitViewController.h */; };
 		62279653123C589E0001B9A7 /* TASplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62279651123C589E0001B9A7 /* TASplitViewController.m */; };
+		622BBFDB12750AD400B095BC /* TAPeerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 622BBFD912750AD400B095BC /* TAPeerConnection.h */; };
+		622BBFDC12750AD400B095BC /* TAPeerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 622BBFDA12750AD400B095BC /* TAPeerConnection.m */; };
+		622BBFE112750ADC00B095BC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622BBFE012750ADC00B095BC /* GameKit.framework */; };
 		6243D30C124CE88300347A54 /* TATableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6243D30A124CE88300347A54 /* TATableViewCell.h */; };
 		6243D30D124CE88300347A54 /* TATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6243D30B124CE88300347A54 /* TATableViewCell.m */; };
 		6255CEA312428F9F001CA642 /* TATextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6255CEA112428F9F001CA642 /* TATextField.h */; };
@@ -64,6 +67,9 @@
 		6225C302124534850055D4BC /* TASwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASwizzle.m; sourceTree = "<group>"; };
 		62279650123C589E0001B9A7 /* TASplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASplitViewController.h; sourceTree = "<group>"; };
 		62279651123C589E0001B9A7 /* TASplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASplitViewController.m; sourceTree = "<group>"; };
+		622BBFD912750AD400B095BC /* TAPeerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPeerConnection.h; sourceTree = "<group>"; };
+		622BBFDA12750AD400B095BC /* TAPeerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPeerConnection.m; sourceTree = "<group>"; };
+		622BBFE012750ADC00B095BC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		6243D30A124CE88300347A54 /* TATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATableViewCell.h; sourceTree = "<group>"; };
 		6243D30B124CE88300347A54 /* TATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATableViewCell.m; sourceTree = "<group>"; };
 		6255CEA112428F9F001CA642 /* TATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATextField.h; sourceTree = "<group>"; };
@@ -100,6 +106,7 @@
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 				62708CCE12297BE000DA149B /* QuartzCore.framework in Frameworks */,
 				62708CD612297C0C00DA149B /* UIKit.framework in Frameworks */,
+				622BBFE112750ADC00B095BC /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 				62708CD512297C0C00DA149B /* UIKit.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 				62708CCD12297BE000DA149B /* QuartzCore.framework */,
+				622BBFE012750ADC00B095BC /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,6 +212,8 @@
 				6225C23F12451EA50055D4BC /* TATableViewController.m */,
 				62AA1F581249881100E2F7D7 /* TAWebViewController.h */,
 				62AA1F591249881100E2F7D7 /* TAWebViewController.m */,
+				622BBFD912750AD400B095BC /* TAPeerConnection.h */,
+				622BBFDA12750AD400B095BC /* TAPeerConnection.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -260,6 +270,7 @@
 				62AA1F5A1249881100E2F7D7 /* TAWebViewController.h in Headers */,
 				62AA1F651249886F00E2F7D7 /* TAWebView.h in Headers */,
 				6243D30C124CE88300347A54 /* TATableViewCell.h in Headers */,
+				622BBFDB12750AD400B095BC /* TAPeerConnection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +341,7 @@
 				62AA1F5B1249881100E2F7D7 /* TAWebViewController.m in Sources */,
 				62AA1F661249886F00E2F7D7 /* TAWebView.m in Sources */,
 				6243D30D124CE88300347A54 /* TATableViewCell.m in Sources */,
+				622BBFDC12750AD400B095BC /* TAPeerConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
