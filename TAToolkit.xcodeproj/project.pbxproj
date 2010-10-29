@@ -352,7 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/TAToolkit.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -372,7 +372,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = TAToolkit;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
