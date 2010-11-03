@@ -18,9 +18,12 @@
 	//  Reloading should really be your tableviews model class
 	//  Putting it here for demo purposes 
 	BOOL _reloading;
+	
+	BOOL _pullToRefresh;
 }
 
 @property(assign,getter=isReloading) BOOL reloading;
+@property BOOL pullToRefresh;
 
 - (void)reloadTableViewDataSource;
 - (void)doneLoadingTableViewData;

@@ -19,13 +19,13 @@
 @implementation TATableViewController
 
 @synthesize reloading=_reloading;
-
+@synthesize pullToRefresh = _pullToRefresh;
 
 - (void)viewDidLoad 
 {
     [super viewDidLoad];
 
-	if (refreshHeaderView == nil) 
+	if (self.pullToRefresh && refreshHeaderView == nil) 
 	{
 		refreshHeaderView = [[TARefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - self.tableView.bounds.size.height, 320.0f, self.tableView.bounds.size.height)];
 		refreshHeaderView.backgroundColor = [UIColor colorWithRed:41.0/255.0 green:41.0/255.0 blue:41.0/255.0 alpha:1.0];
@@ -61,7 +61,7 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {	
-	if (scrollView.isDragging) 
+	if (self.pullToRefresh && scrollView.isDragging) 
 	{
 		if (refreshHeaderView.state == TAPullRefreshPulling && scrollView.contentOffset.y > -65.0f && scrollView.contentOffset.y < 0.0f && !_reloading) 
 		{
@@ -76,7 +76,7 @@
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {	
-	if (scrollView.contentOffset.y <= - 65.0f && !_reloading) 
+	if (self.pullToRefresh &&  scrollView.contentOffset.y <= - 65.0f && !_reloading) 
 	{
 			_reloading = YES;
 			[self reloadTableViewDataSource];
