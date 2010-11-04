@@ -206,7 +206,7 @@
 
 - (BOOL)empty
 {
-	return ! self.length || ! [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]].length;
+	return ! self.length || ! [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]].length;
 }
 
 + (NSString *) md5:(NSString *)str 
