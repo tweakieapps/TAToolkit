@@ -11,6 +11,7 @@
 #import "UINavigationBar+TAToolkitAdditions.h"
 #import "UIToolbar+TAToolkitAdditons.h"
 #import "NSString+TAToolkitAdditions.h"
+#import "NSArray+TAToolkitAdditions.h"
 #import "NSMutableURLRequest+TAToolkitAdditions.h"
 #import "NSDateFormatter+TAToolkitAdditions.h"
 #import "NSData+TAToolkitAdditions.h"

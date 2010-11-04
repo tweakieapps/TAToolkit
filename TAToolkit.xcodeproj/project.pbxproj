@@ -49,6 +49,8 @@
 		62EB38DE1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EB38DC1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.m */; };
 		AA747D9F0F9514B9006C5449 /* TAToolkit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		AC58B7E5128264CA00BFF796 /* NSArray+TAToolkitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AC58B7E3128264CA00BFF796 /* NSArray+TAToolkitAdditions.h */; };
+		AC58B7E6128264CA00BFF796 /* NSArray+TAToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC58B7E4128264CA00BFF796 /* NSArray+TAToolkitAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +97,8 @@
 		62EB38DC1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+TAToolkitAdditions.m"; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TAToolkit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAToolkit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC58B7E3128264CA00BFF796 /* NSArray+TAToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TAToolkitAdditions.h"; sourceTree = "<group>"; };
+		AC58B7E4128264CA00BFF796 /* NSArray+TAToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TAToolkitAdditions.m"; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libTAToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -240,6 +244,8 @@
 				62EB38DC1245D02900F1336F /* NSDateFormatter+TAToolkitAdditions.m */,
 				620AF4FF12490FE700F22594 /* NSData+TAToolkitAdditions.h */,
 				620AF50012490FE700F22594 /* NSData+TAToolkitAdditions.m */,
+				AC58B7E3128264CA00BFF796 /* NSArray+TAToolkitAdditions.h */,
+				AC58B7E4128264CA00BFF796 /* NSArray+TAToolkitAdditions.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -271,6 +277,7 @@
 				62AA1F651249886F00E2F7D7 /* TAWebView.h in Headers */,
 				6243D30C124CE88300347A54 /* TATableViewCell.h in Headers */,
 				622BBFDB12750AD400B095BC /* TAPeerConnection.h in Headers */,
+				AC58B7E5128264CA00BFF796 /* NSArray+TAToolkitAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +349,7 @@
 				62AA1F661249886F00E2F7D7 /* TAWebView.m in Sources */,
 				6243D30D124CE88300347A54 /* TATableViewCell.m in Sources */,
 				622BBFDC12750AD400B095BC /* TAPeerConnection.m in Sources */,
+				AC58B7E6128264CA00BFF796 /* NSArray+TAToolkitAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
