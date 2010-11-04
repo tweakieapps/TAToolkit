@@ -24,4 +24,6 @@
 
 - (NSString *)stringByTruncatingToWidth:(CGFloat)width withFont:(UIFont *)font;
 
+- (NSString *)stringByRemovingCharactersInSet:(NSCharacterSet*)characterSet;
+
 @end

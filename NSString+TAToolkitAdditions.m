@@ -93,6 +93,24 @@
 	return string;
 }
 
+- (NSString *)stringByRemovingCharactersInSet:(NSCharacterSet*)characterSet
+{
+	NSScanner*       cleanerScanner = [NSScanner scannerWithString:self];
+	NSMutableString* cleanString    = [NSMutableString stringWithCapacity:[self length]];
+
+	while (![cleanerScanner isAtEnd]) {
+		NSString* stringFragment;
+		
+		if ([cleanerScanner scanUpToCharactersFromSet:characterSet intoString:&stringFragment]) {
+			[cleanString appendString:stringFragment];
+		}
+
+		[cleanerScanner scanCharactersFromSet:characterSet intoString:nil];
+	}
+
+	return cleanString;
+}
+
 - (NSString *)escapeHTML {
 	NSMutableString *s = [NSMutableString string];
 
