@@ -23,7 +23,7 @@
 }
 
 @property(assign,getter=isReloading) BOOL reloading;
-@property BOOL pullToRefresh;
+@property (assign) BOOL pullToRefresh;
 
 - (void)reloadTableViewDataSource;
 - (void)doneLoadingTableViewData;
